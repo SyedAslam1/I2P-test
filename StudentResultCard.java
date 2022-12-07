@@ -2,7 +2,7 @@ package Week_7;
 
 import java.util.Scanner;
 
-public class StuResCard {
+public class StudentResultCard {
 
 	public static void main(String[] args) {
 
@@ -21,13 +21,10 @@ public class StuResCard {
 		int userinput = 0;
 
 		label: while (userinput != 6) {
-			userinput = 0;
 			System.out.print("\n Enter a choice and Press ENTER to continue[1-6]:");
 			Scanner input = new Scanner(System.in);
-			userinput = input.nextdouble();
+			userinput = input.nextInt();
 			
-			userinput = 6;
-
 			switch (userinput) {
 			
 
